@@ -1,7 +1,11 @@
 # javascript-language-switcher
+
 after quite a bit of searching, I decided to create a naive one
+
 you can just fork it to use it
+
 simple [demo](https://chienhsiang-hung.github.io/javascript-language-switcher/)
+
 **HTML**
 ```python
     <h1 class="en">JavaScript Language Switcher</h1>
