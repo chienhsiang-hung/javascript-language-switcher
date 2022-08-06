@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SEO -->
+    <meta property="og:title" content="Simple JavaScript Language Switcher w/ css visible"/>
+    <meta property="og:url" content="https://chienhsiang-hung.github.io/javascript-language-switcher/css-visible"/>
+    <meta property="og:image" content="https://github.com/chienhsiang-hung/chienhsiang-hung.github.io/raw/main/android-chrome-512x512.png"/>
+    <meta name="keywords" content="Simple JavaScript Language Switcher, Simple JavaScript Language Switcher w/ css visible, Lang Switcher, 藉由CSS實現簡易JS語言切換"/>
+    <meta property="og:description" name="description"  content="Simple JavaScript Language Switcher, use javascript switch language with a help of the css visible.">
+    <meta name="author" content="Hung, Chien-Hsiang"/>
+    <meta name="copyright" content="GNU General Public License v3.0"/>
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>Simple JavaScript Language Switcher w/ css visible</title>
+
+    <meta name="google-site-verification" content="SyEY88jadkmY5tP6AMEBi5rqu2hNV4P81pJ6uTusYFM" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EB1W4TXEV1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EB1W4TXEV1');
+    </script>
+    <!-- AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5348991030538024" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link href="switch-lang.css" rel="stylesheet">
+    <style>
+      span {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  
+  <body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Lang Switcher</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/chienhsiang-hung/javascript-language-switcher" target="_blank">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://hungchienhsiang.medium.com/" target="_blank">Blog</a>
+            </li>
+          </ul>  
+        </div>
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+      <div class="container">
+        <h1 class="mt-5 en">Simple JavaScript Language Switcher w/ css visible</h1>
+        <h1 class="mt-5 tw">藉由CSS實現簡易JS語言切換</h1>
+        <span class='en' onclick="switch_lang('.en', '.tw')">中文</span><span class='tw' onclick="switch_lang('.tw', '.en')">EN</span>
+
+        <div class="row">
+          <div class="col">
+          </div>
+        </div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col align-self-end" style="text-align:right;">
+            <span class="text-muted">
+              <p style="vertical-align: middle;">
+                Powered by <a href="https://chienhsiang-hung.github.io/" target="_blank">@Hsiang</a>
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='switch-lang-w-visible.js'></script>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('chienhsianghung', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#00b9fe',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
+    </script>
+  </body>
+</html>
