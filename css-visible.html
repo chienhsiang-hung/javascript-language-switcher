@@ -30,6 +30,13 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5348991030538024" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link href="switch-lang.css" rel="stylesheet">
+    <style>
+      span {
+        cursor: pointer;
+      }
+    </style>
   </head>
   
   <body class="d-flex flex-column h-100">
@@ -66,6 +73,7 @@
       <div class="container">
         <h1 class="mt-5 en">Simple JavaScript Language Switcher w/ css visible</h1>
         <h1 class="mt-5 tw">藉由CSS實現簡易JS語言切換</h1>
+        <span class='en' onclick="switch_lang('.en', '.tw')">中文</span><span class='tw' onclick="switch_lang('.tw', '.en')">EN</span>
 
         <div class="row">
           <div class="col">
@@ -94,6 +102,10 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='switch-lang-w-visible.js'></script>
+
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script>
       kofiWidgetOverlay.draw('chienhsianghung', {
