@@ -3,7 +3,10 @@ $(function(){
     $.each(includes, function(){
         
         var file = 'src/html/' + $(this).data('include') + '.html';
-        
-        $(this).replaceWith(file);
+        // var selected_div = $(this);
+
+        $.get(file, function(data){
+            $(this).replaceWith(data);
+        });
     })
 });
