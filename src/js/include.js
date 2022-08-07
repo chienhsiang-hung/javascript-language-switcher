@@ -4,6 +4,6 @@ $(function(){
         
         var file = 'src/html/' + $(this).data('include') + '.html';
         
-        $(this).replaceWith(file);
+        $(this).load(file);
     })
 });
