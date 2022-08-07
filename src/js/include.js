@@ -5,6 +5,6 @@ $(function(){
         var file = 'src/html/' + $(this).data('include') + '.html';
 
         $(this).load(file);
-        $(`${this} > *`).unwrap();
+        $(this).contents().unwrap();
     })
 });
