@@ -1,5 +1,5 @@
 $(function(){
-    
+
     // load include html components
     var includes = $('[data-include]');
     $.each(includes, function(){
@@ -10,9 +10,9 @@ $(function(){
     });
 
     // reload from DOM and unwrap the div
-    var includes = $('[data-include]');
+    includes = $('[data-include]');
     $.each(includes, function(){
-
+        console.log($(this).contents());
         $(this).contents().unwrap();
     })
 });
