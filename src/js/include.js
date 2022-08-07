@@ -10,9 +10,9 @@ $(function(){
     });
 
     // reload from DOM and unwrap the div
-    includes = $('[data-include]');
+    var includes = $('[data-include]');
     $.each(includes, function(){
-        console.log($(this).contents());
+        
         $(this).contents().unwrap();
     })
 });
