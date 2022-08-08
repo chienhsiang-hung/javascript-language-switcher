@@ -11,5 +11,7 @@ $(function(){
 
     // reload from DOM and unwrap the div
     var includes = $('[data-include]');
-    $.each(includes, console.log($(this).html()));
+    $.each(includes, function(){
+        console.log($(this).html());
+    });
 });
