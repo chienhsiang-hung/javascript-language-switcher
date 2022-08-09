@@ -36,6 +36,7 @@ function switch_lang(hide_lan, show_lan){
 }
 ```
 Then I quickly found that the user with javascript disabled or slow load in would result in seeing the [original HTML](https://chienhsiang-hung.github.io/javascript-language-switcher/) w/ multiple langs not being hidden.
+
 So I've tried to initialize the hidden lang by set CSS `visible` to `hidden`.
 ### CSS Visibility
 ```css
@@ -53,6 +54,7 @@ Result: [Simple JavaScript Language Switcher w/ css display (chienhsiang-hung.gi
 
 ## How to use it
 *The example was shown for TW-EN site.*
+
 Set up your HTML like [this](https://chienhsiang-hung.github.io/javascript-language-switcher/css-display.html):
 ```html
 <h1  class="mt-5 en">Simple JavaScript Language Switcher w/ css display</h1>
@@ -67,3 +69,6 @@ And this in `<body>` part of you HTML:
 ```html
 <script src='https://chienhsiang-hung.github.io/javascript-language-switcher/src/js/switch-lang-no-onload.js'></script>
 ```
+
+## Support
+It's always appreciated if you would like to [buy me a cofee](https://ko-fi.com/chienhsianghung) to support this API. Thank you :)
