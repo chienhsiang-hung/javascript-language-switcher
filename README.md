@@ -16,6 +16,10 @@ you can just [fork](https://github.com/chienhsiang-hung/javascript-language-swit
 
 simple [demo](https://chienhsiang-hung.github.io/javascript-language-switcher/)
 
+## jQuery Hide & Show
+At the first I thought I can use jQuery's `.hide()` and `.show()` to achieve the result I want.
+
+### First Naive Version
 **HTML**
 ```python
     <h1 class="en">JavaScript Language Switcher</h1>
@@ -31,3 +35,18 @@ function switch_lang(hide_lan, show_lan){
   $(show_lan).show();
 }
 ```
+Then I quickly found that the user with javascript disabled or slow load in would result in seeing the [original HTML](https://chienhsiang-hung.github.io/javascript-language-switcher/) w/ multiple langs not being hidden.
+So I've tried to initialize the hidden lang by set CSS `visible` to `hidden`.
+### CSS Visibility
+```css
+.tw {visibility: hidden;}
+.en {visibility: visible;}
+```
+But it resulted in a [disordered layout](https://chienhsiang-hung.github.io/javascript-language-switcher/css-visible.html).(You can regard it as what when we set the `colour: white;` to cover something up)  
+Finally with the help of another style attribution, `display`, I am able to achieve what I want - to set up a multilingual site and handle the error when users have a **low load-in speed** or **JS disabled**.
+
+### CSS Display
+```css
+.tw {display: none;}
+```
+Result: [Simple JavaScript Language Switcher w/ css display (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/javascript-language-switcher/css-display.html)
