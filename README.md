@@ -7,7 +7,6 @@
 ![](https://img.shields.io/github/languages/code-size/chienhsiang-hung/javascript-language-switcher)
 ![](https://img.shields.io/github/repo-size/chienhsiang-hung/javascript-language-switcher)
 ![](https://img.shields.io/github/v/release/chienhsiang-hung/javascript-language-switcher?include_prereleases)
-![](https://img.shields.io/github/discussions/chienhsiang-hung/javascript-language-switcher)
 ![](https://img.shields.io/github/checks-status/chienhsiang-hung/javascript-language-switcher/main)
 
 after quite a bit of searching, I decided to create a naive one
