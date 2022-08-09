@@ -1,4 +1,4 @@
-# javascript-language-switcher
+# Javascript Language Switcher
 ![](https://img.shields.io/github/license/chienhsiang-hung/javascript-language-switcher)
 ![](https://img.shields.io/github/languages/count/chienhsiang-hung/javascript-language-switcher)
 ![](https://img.shields.io/github/languages/top/chienhsiang-hung/javascript-language-switcher)
