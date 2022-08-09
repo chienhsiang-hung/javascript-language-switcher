@@ -12,7 +12,7 @@
 
 after quite a bit of searching, I decided to create a naive one
 
-you can just fork it to use it
+you can just [fork](https://github.com/chienhsiang-hung/javascript-language-switcher/fork) it to use it
 
 simple [demo](https://chienhsiang-hung.github.io/javascript-language-switcher/)
 
