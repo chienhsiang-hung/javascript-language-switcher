@@ -50,3 +50,20 @@ Finally with the help of another style attribution, `display`, I am able to achi
 .tw {display: none;}
 ```
 Result: [Simple JavaScript Language Switcher w/ css display (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/javascript-language-switcher/css-display.html)
+
+## How to use it
+*The example was shown for TW-EN site.*
+Set up your HTML like [this](https://chienhsiang-hung.github.io/javascript-language-switcher/css-display.html):
+```html
+<h1  class="mt-5 en">Simple JavaScript Language Switcher w/ css display</h1>
+<h1  class="mt-5 tw">藉由CSS實現簡易JS語言切換</h1>
+<span  class='en'  onclick="switch_lang('.en', '.tw')">中文</span><span  class='tw'  onclick="switch_lang('.tw', '.en')">EN</span>
+```
+Put this in `<head>` part of your HTML:
+```html
+<link href="https://chienhsiang-hung.github.io/javascript-language-switcher/src/css/switch-lang-display.css" rel="stylesheet">
+```
+And this in `<body>` part of you HTML:
+```html
+<script src='https://chienhsiang-hung.github.io/javascript-language-switcher/src/js/switch-lang-no-onload.js'></script>
+```
