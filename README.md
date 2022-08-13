@@ -63,6 +63,8 @@ Set up your HTML like [this](https://chienhsiang-hung.github.io/javascript-langu
 Put this in `<head>` part of your HTML:
 ```html
 <link href="https://chienhsiang-hung.github.io/javascript-language-switcher/src/css/switch-lang-display.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 ```
 And this in `<body>` part of you HTML:
 ```html
